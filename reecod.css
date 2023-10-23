@@ -1,0 +1,270 @@
+/* ***************************************NAVBAR STYLING******************************************************************** */
+.navbar{
+    display: flex;
+    /* margin: 1rem; */
+    background-color: rgb(25, 121, 25);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.reeco{
+    font-family: cursive;
+    margin-left: 6rem;
+    margin-top: 0.5rem;
+}
+
+.desktopmenu{
+    margin: 0.5rem;
+}
+
+.desktopMenuListItem{
+    margin: 1.4rem;
+}
+
+.cartIcon{
+    margin-right: 3rem;
+    margin-left: 43rem;
+    margin-top: 0.8rem;
+}
+
+.selectOption{
+    border: none;
+    color: white;
+    background-color: rgb(25, 121, 25) ;
+    font-size: 1rem;
+}
+
+/* <!-- ****************************************************ORDER***********************************************************--> */
+.ordersection{
+    display: flex;
+    margin: 1.6rem;
+}
+
+.select{
+    margin-left: 1.6rem;
+    border: none;
+}
+
+.ordersection2{
+    display: flex;
+    margin-right: 2rem;
+    margin: 1.6rem;
+}
+
+.ordernumber{
+    display: inline;
+    margin-right: 2rem;
+    
+}
+
+.btnBack{
+    margin-left: 57rem;
+    height: 1.6rem;
+    width: 3rem;
+    border-radius: 5rem;
+    color: rgb(25, 121, 25);
+    border: 1px solid rgb(25, 121, 25);
+    background-color: transparent;
+}
+
+.btnBack:hover{
+    color: white;
+    background-color: rgb(25, 121, 25);
+    border: none;
+}
+
+.btnApprove{
+    margin-left: 2rem;
+    height: 1.6rem;
+    width: 7rem;
+    border-radius: 5rem;
+    color: white;
+    background-color: rgb(25, 121, 25);
+    border: none;
+}
+
+.btnApprove:hover{
+    color: rgb(25, 121, 25);
+    border: 1px solid rgb(25, 121, 25);
+    background-color: transparent;
+}
+
+/* ***************************************************TABLE1 STYLING*********************************************************** */
+.table1{
+    border: 1px solid #ccc;
+    width: 90%;
+    border-radius: 0.4rem;
+}
+
+.headsupplier{
+    border-bottom: 1px solid #ccc;
+}
+
+.tableContent{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.total{
+    border-left: 1px solid #ccc;
+    border-bottom: none;
+}
+
+th{
+    margin: 2rem;
+    border-left: 1px solid #ccc;
+    font-weight: 100;
+}
+
+td{
+    padding: 0.7rem;
+    border-left: 1px solid #ccc;
+    font-weight: 600;
+}
+
+.head-data{
+    border-left: 1px solid #ccc;
+    border-bottom: none;
+    border-right: none;
+}
+
+.headsupplier{
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+}
+
+
+.headsupplier1{
+    border-bottom: none;
+    border-left: none;
+}
+
+/* <!-- ****************************************************TABLE 2*********************************************************--> */
+.content{
+    border: 1px solid #ccc;
+    width: 90%;
+    margin: 4.5rem;
+    margin-top: 2rem;
+    border: 2px solid #ccc;
+    border-radius: 0.4rem;
+}
+table{
+    border: 1px solid #ccc;
+    width: 90%;
+    border-radius: 0.4rem;
+}
+.fulltable{
+    border: 1px solid #ccc;
+    width: 90%;
+    margin: 4rem;
+    margin-bottom: 6rem;
+    margin-top: 3rem;
+    border-bottom: none;
+}
+
+.searchbtn{
+    margin-right: 45rem;
+    margin-left: 2.7rem;
+    margin-top: 2rem;
+    margin-bottom: 1.6rem;
+    width: 13rem;
+    border-radius: 5rem;
+    height: 1.9rem;
+    background-color: transparent;
+    cursor: auto;
+}
+
+#searchicon{
+    margin-left: 3.3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.additembtn{
+    width: 5rem;
+    height: 1.9rem;
+    border-radius: 5rem;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-right: 2rem;
+    margin-top: 1.6rem;
+}
+
+.additembtn:hover{
+    background-color: transparent;
+    border: 2px solid green;
+    color: green;
+}
+
+#printicon{
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    color: green;
+    cursor: pointer;
+}
+
+.avocadoimg{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+}
+
+#approveTick{
+    font-size: 2rem;
+    font-weight: 600;
+    color: green;
+    margin-right: 0.5rem;
+    display: inline;
+    cursor: pointer;
+    
+}
+.approveTick{
+    color: green;
+}
+
+#warningCross{
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    margin-left: 0;
+    display: inline;
+    cursor: pointer;
+    color: red;
+    font-weight: 600;
+}
+
+#warningCross{
+    color: red;
+}
+
+.edit{
+    display: inline;
+    margin-top: 6rem;
+}
+
+.edit:hover{
+    color: rgb(5, 5, 241);
+}
+th{
+    border-bottom: 1px solid #ccc;
+}
+
+.th-border, .td-border{
+    border-left: 1px solid #ccc;
+}
+
+
+
+.th-productname{
+    border-left: none;
+}
+
+td{
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+}
+
+.productname{
+    border-left: none;
+}
+
